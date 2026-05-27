@@ -1,0 +1,19 @@
+[tool.ruff]
+exclude = [
+    "*.png",
+    "*.html",
+    "plot_*.py",
+    # virtual envs & dependency dirs
+    ".venv",
+    "venv",
+    "env",
+    "lib",
+    "lib64",
+    "site-packages",
+    # build & cache
+    "__pycache__",
+    ".git",
+    "dist",
+    "build",
+    "*.egg-info",
+]
