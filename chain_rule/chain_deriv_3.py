@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import ndarray
-from nested_function import Chain
-from derivative import deriv
+from chain_rule.nested_function import Chain
+from core.derivative import deriv
 
 
 def sigmoid(x: ndarray) -> ndarray:

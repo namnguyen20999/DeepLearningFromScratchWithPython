@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import ndarray
 
-from array_types import ArrayFunction
+from core.array_types import ArrayFunction
 
 
 def matrix_forward_extra(X: ndarray, W: ndarray, sigma: ArrayFunction)-> ndarray:

@@ -1,8 +1,8 @@
 import numpy as np
 from numpy import ndarray
 
-from array_types import ArrayFunction
-from derivative import deriv
+from core.array_types import ArrayFunction
+from core.derivative import deriv
 
 
 def matrix_function_backward_1(X: ndarray, W: ndarray, sigma: ArrayFunction) -> ndarray:

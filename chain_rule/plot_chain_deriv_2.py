@@ -1,9 +1,9 @@
 import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from chain_deriv_2 import chain_deriv_2, sigmoid
-from nested_function import chain_length_2
-from derivative import deriv
+from chain_rule.chain_deriv_2 import chain_deriv_2, sigmoid
+from chain_rule.nested_function import chain_length_2
+from core.derivative import deriv
 
 def square(x: np.ndarray) -> np.ndarray:
     return x ** 2

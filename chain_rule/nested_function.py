@@ -1,5 +1,5 @@
 from numpy import ndarray
-from array_types import Chain
+from core.array_types import Chain
 
 
 def chain_length_2(chain: Chain, a: ndarray) -> ndarray:

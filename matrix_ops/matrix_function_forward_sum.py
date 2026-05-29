@@ -1,6 +1,6 @@
 from numpy import ndarray
 import numpy as np
-from array_types import ArrayFunction
+from core.array_types import ArrayFunction
 
 
 def matrix_function_forward_sum(X: ndarray, W: ndarray, sigma: ArrayFunction) -> float:

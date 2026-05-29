@@ -1,7 +1,7 @@
 from numpy import ndarray
 
-from array_types import ArrayFunction
-from derivative import deriv
+from core.array_types import ArrayFunction
+from core.derivative import deriv
 
 
 def multiple_inputs_add_backward(x: ndarray, y: ndarray, sigma: ArrayFunction) -> float:
